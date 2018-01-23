@@ -1,0 +1,85 @@
+/*每个标签页的背景颜*/
+.tab-pane {
+	background-color: #fff;
+}
+/*每个标签的外部样式*/
+#myTab {
+	position: absolute;
+	right: -2.76em;
+	top: 2.6em;
+	box-shadow: 1em 0 1em rgba(0, 0, 0, 0.1);
+}
+/*整个主div的样式*/
+.main-content {
+	position: relative;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+	border: 1px;
+	border-color: rgba(0, 0, 0, 0.1);
+	padding: 0;
+}
+/*每个标签的内部样式*/
+#myTab li, .btn-sty1, .btn-sty2, .btn-sty3, .btn-sty4 {
+	border-left: 1px;
+	border-bottom: 1px;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+/*去除每个标签间的虚线*/
+#myTab a.btn {
+	outline:none;
+}
+/*按钮颜色 和按钮文字颜色*/
+.btn-sty1 {
+	background-color: #00A287;
+	color: #fff;
+}
+.btn-sty2 {
+	background-color: #447BD4;
+	color: #fff;
+}
+.btn-sty3 {
+	background-color: #5FEB3B;
+	color: #fff;
+}
+.btn-sty4 {
+	background-color: #FF8D40;
+	color: #fff;
+}
+/*每个图片介绍添加内边距*/
+.media-body {
+	padding: 2em 4em 4em;
+}
+/*每个图片介绍的文本内容添加内边距*/
+.media-body p{
+	padding-top: 1em;
+}
+/*当前标签的颜色*/
+#home {
+	background-color: #00A287;
+	color: #fff;
+}
+#profile {
+	background-color: #447BD4;
+	color: #fff;
+}
+#settings {
+	background-color: #5FEB3B;
+	color: #fff;
+}
+#messages {
+	background-color: #FF8D40;
+	color: #fff;
+}
+/*标题(校园文化)的外部样式*/
+.view-title {
+	color: #fff;
+	text-align: center;
+	background-color: #3788DA;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+/*标题(校园文化)的内部样式*/
+.view-title h2 {
+	transition: all 0.3s ease 0s;
+	margin: 0;
+	padding: 0.5em 0;
+}

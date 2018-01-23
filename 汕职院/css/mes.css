@@ -1,0 +1,27 @@
+/*内容的样式*/
+.mes-title {
+	color: #fff;
+	text-align: center;
+	background-color: #3788DA;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+/*标题的外部样式*/
+.mes-title h2 {
+	transition: all 0.3s ease 0s;
+	margin: 0;
+	padding: 0.5em 0;
+}
+/* 横条 */
+.string{
+	border: 1em solid #3788DA;
+}
+/* 信息的样式 */
+.mes-bar{
+	padding: 2em;
+	margin-bottom: 0;
+}
+.mes-info {
+	padding: 0;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}

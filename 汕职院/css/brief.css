@@ -1,0 +1,36 @@
+/*设置历史沿革文本内容内边距*/
+.brief-mes{
+	padding: 1em;
+}
+/*设置class为string的样式*/
+.string{
+	border: 1em solid #3788DA;
+}
+/*设置大面板(汕头职业技术学院的内边距和外边距)*/
+.brief-bar{
+	padding: 2em;
+	margin-bottom: 0;
+}
+/*标题(学院简介)的外部样式*/
+.brief-title {
+	color: #fff;
+	text-align: center;
+	background-color: #3788DA;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+/*标题(学院简介)的内部样式*/
+.brief-title h2 {
+	transition: all 0.3s ease 0s;
+	margin: 0;
+	padding: 0.5em 0;
+}
+/*历史沿革的最外侧的div的样式*/
+.brief-info {
+	transition: all 0.3s ease 0s;
+}
+/*主面板的最外侧的div的样式*/
+.brief-info2 {
+	padding: 0;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}

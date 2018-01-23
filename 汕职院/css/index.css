@@ -1,0 +1,16 @@
+/*设置通知公告的文本内容内边距*/
+.list-group-item-text {
+	padding: 0.5em 1em; 
+}
+/*学院要闻,系部动态的样式*/
+#roll1 li, #roll2 li {
+	height: 50px;
+	line-height: 30px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+/*设置学院要闻,系部动态的相对位置*/
+#roll1 li div, #roll2 li div {
+	position: absolute;
+}

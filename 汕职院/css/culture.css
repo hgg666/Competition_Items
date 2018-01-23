@@ -1,0 +1,25 @@
+/*每个系的样式*/
+div.card-mes {
+	padding: 3em 3em 5em 3em;
+	background-color: #3788DA;
+	margin-bottom: 4em;
+	color: #fff;
+}
+/*每个系标题的位置*/
+div.card-mes>h2 {
+	margin-top: 0.1em;
+}
+/*标题(院系设置)的外部样式*/
+.culture-title {
+	color: #fff;
+	text-align: center;
+	background-color: #3788DA;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+/*标题(院系设置)的内部样式*/
+.culture-title h2 {
+	transition: all 0.3s ease 0s;
+	margin: 0;
+	padding: 0.5em 0;
+}

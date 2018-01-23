@@ -1,0 +1,22 @@
+/*每张图片的样式*/
+.campus-img {
+	border: 1px solid #444;
+	padding: 0;
+	opacity: 0.65;
+	alpha: (opacity);
+	transition: "all 0.3s ease 0s",
+}
+/*标题(校园风景)的外部样式*/
+.campus-title {
+	color: #fff;
+	text-align: center;
+	background-color: #3788DA;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+/*标题(校园风景)的内部样式*/
+.campus-title h2 {
+	transition: all 0.3s ease 0s;
+	margin: 0;
+	padding: 0.5em 0;
+}

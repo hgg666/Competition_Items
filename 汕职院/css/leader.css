@@ -1,0 +1,56 @@
+/*领导图片的样式*/
+.circle{
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+/*设置领导名字的位置*/
+h3.media-text {
+	padding-top: 1em;
+	margin-left: 2em;
+}
+/*设置领导介绍内容的位置*/
+p.media-text {
+	margin-right: 3em;
+}
+/*设置每个领导的每个div的样式*/
+div.media-pic {
+	transition: all 0.3s ease 0s;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+	margin-top: 6em;
+	position: relative;
+	background-color: #fff;
+}
+/*领导图片的位置*/
+.media-left {
+	position: relative;
+	top: -4em;
+	left: 3em;
+}
+/*电脑端每个领导div标题+内容的位置*/
+div.media-body {
+	margin-left: 4em;
+}
+/*手机端每个领导div标题+内容的位置*/
+.media-vi {
+	top: -4.5em;
+	text-align: center;
+	position: relative;
+	padding: 0 3em;
+}
+/*标题(现任领导)的外部样式*/
+.leader-title {
+	color: #fff;
+	text-align: center;
+	background-color: #3788DA;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+/*标题(现任领导)的内部样式*/
+.leader-title h2 {
+	transition: all 0.3s ease 0s;
+	margin: 0;
+	padding: 0.5em 0;
+}
